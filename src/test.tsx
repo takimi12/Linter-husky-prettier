@@ -3,14 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-type Props = {
-  name: string;
-};
-
-export const App = ({ name }: Props) => {
+export const App = () => {
   const [count, setCount] = useState(0);
-
-  console.log(name);
 
   return (
     <>
